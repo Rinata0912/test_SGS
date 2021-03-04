@@ -1,3 +1,4 @@
+import { Button } from '../Button/Button';
 import styles from './Header.module.sass';
 
 export function Header() {
@@ -12,6 +13,9 @@ export function Header() {
           nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
           volutpat.
         </p>
+        <div className={styles.learnMore}>
+          <Button />
+        </div>
       </div>
     </div>
   );
