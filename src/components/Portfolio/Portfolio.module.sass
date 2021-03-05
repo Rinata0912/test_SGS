@@ -1,0 +1,87 @@
+.portfolio
+  padding: 54px 0 61px
+  
+.container
+  max-width: 943px
+  margin: 0 auto
+  text-align: center
+
+.title
+  color: #444
+  font-size: 28px
+  font-weight: 400
+  font-style: normal
+  margin: 0 0 17px
+
+.subtitle
+  color: #444
+  font-size: 16px
+  font-weight: 400
+  font-style: normal
+  margin: 0 0 36px
+
+.filterList
+  display: flex
+  list-style: none
+  padding: 0
+  justify-content: center
+  margin: 0 0 45px
+
+.filter
+  margin-right: 15px
+  &:last-child
+    margin-right: 0
+
+.portfolioList
+  display: grid
+  grid-template-columns: repeat(4, 180px)
+  gap: 60px
+  justify-content: center
+
+.portfolioItem
+  position: relative
+  &:hover .hoverLayer
+    opacity: 1
+  // &::after
+  //   background: rgba(22,160,134, .75)
+  //   border-radius: 50%
+  //   position: absolute
+  //   content: ''
+  //   top: 0
+  //   right: 0
+  //   bottom: 0
+  //   left: 0
+  //   opacity: 0
+  //   transition: opacity .2s ease
+  // &:hover::after
+  //   opacity: 1
+    
+.hoverLayer
+  background: rgba(22,160,134, .75)
+  border-radius: 50%
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  opacity: 0
+  transition: opacity .2s ease
+
+.hoverSmallLayer
+  background: rgba(68,68,68, .61)
+  position: absolute
+  top: 68px
+  right: 68px
+  bottom: 68px
+  left: 68px
+  border-radius: 50%
+  display: flex
+
+.portfolioImg
+  width: 180px
+  display: block
+  height: 180px
+
+.searchIcon
+  margin: auto
+

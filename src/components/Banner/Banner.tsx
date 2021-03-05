@@ -14,7 +14,7 @@ export function Banner() {
           volutpat.
         </p>
         <div className={styles.learnMore}>
-          <Button />
+          <Button text="LEARN MORE" />
         </div>
       </div>
     </div>

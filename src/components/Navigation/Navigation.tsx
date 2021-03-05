@@ -1,4 +1,4 @@
-import { NAVIGATION_LIST } from '../../utils/constants';
+import { NAVIGATION_LIST } from 'utils/constants';
 import styles from './Navigation.module.sass';
 
 export function Navigation() {

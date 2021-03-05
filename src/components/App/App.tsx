@@ -1,13 +1,13 @@
-import React from 'react';
-import { Banner } from '../Banner/Banner';
-import { Header } from '../Header/Header';
-import './App.css';
+import { Banner } from 'components/Banner/Banner';
+import { Header } from 'components/Header/Header';
+import { Portfolio } from 'components/Portfolio/Portfolio';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Banner />
+      <Portfolio />
     </div>
   );
 }
