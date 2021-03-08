@@ -1,7 +1,6 @@
 import { Button } from 'components/Button/Button';
 import { FILTER_LIST, PROJECTS } from 'utils/constants';
 import styles from './Portfolio.module.sass';
-import { ReactComponent as Search } from 'images/search.svg';
 
 export function Portfolio() {
   return (
@@ -28,7 +27,9 @@ export function Portfolio() {
               />
               <div className={styles.hoverLayer}>
                 <div className={styles.hoverSmallLayer}>
-                  <Search className={styles.searchIcon} />
+                  <span className={styles.searchIcon}>
+                    <i className="fas fa-search"></i>
+                  </span>
                 </div>
               </div>
             </div>

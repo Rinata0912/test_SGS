@@ -5,6 +5,10 @@ import image4 from 'images/img-4.jpg';
 import image5 from 'images/img-5.jpg';
 import image6 from 'images/img-6.jpg';
 
+import avatar1 from 'images/ava-1.jpg';
+import avatar2 from 'images/ava-2.jpg';
+import avatar3 from 'images/ava-3.jpg';
+
 const NAVIGATION_LIST = [
   {
     name: 'HOME',
@@ -70,4 +74,27 @@ const PROJECTS = [
   },
 ];
 
-export { NAVIGATION_LIST, FILTER_LIST, PROJECTS };
+const EMPLOYEES = [
+  {
+    fullName: 'Melannie Doe',
+    position: 'Project Manager',
+    description: 'Ut wisi enim ad minim veniam, quis nostrud exerci tation',
+    avatar: avatar1,
+  },
+  {
+    fullName: 'Jhonnie Doe',
+    position: 'Graphic Designer',
+    description:
+      'Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.',
+    avatar: avatar3,
+  },
+  {
+    fullName: 'Daniel Doe',
+    position: 'Web Designer',
+    description:
+      'Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo ',
+    avatar: avatar2,
+  },
+];
+
+export { NAVIGATION_LIST, FILTER_LIST, PROJECTS, EMPLOYEES };
